@@ -144,6 +144,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 280049335446001649, guid: 00737a266cf9d724bae1e41a9a87084f, type: 3}
   m_PrefabInstance: {fileID: 6858992728260688102}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &456878899
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 295701415}
+    m_Modifications:
+    - target: {fileID: 370808457410273555, guid: 7e279b1d04767f545b4e831726dc03a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.248255
+      objectReference: {fileID: 0}
+    - target: {fileID: 370808457410273555, guid: 7e279b1d04767f545b4e831726dc03a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.27798706
+      objectReference: {fileID: 0}
+    - target: {fileID: 370808457410273555, guid: 7e279b1d04767f545b4e831726dc03a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.9238412
+      objectReference: {fileID: 0}
+    - target: {fileID: 370808457410273555, guid: 7e279b1d04767f545b4e831726dc03a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 370808457410273555, guid: 7e279b1d04767f545b4e831726dc03a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 370808457410273555, guid: 7e279b1d04767f545b4e831726dc03a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 370808457410273555, guid: 7e279b1d04767f545b4e831726dc03a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 370808457410273555, guid: 7e279b1d04767f545b4e831726dc03a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 370808457410273555, guid: 7e279b1d04767f545b4e831726dc03a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 370808457410273555, guid: 7e279b1d04767f545b4e831726dc03a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046044813607820883, guid: 7e279b1d04767f545b4e831726dc03a4, type: 3}
+      propertyPath: pivot
+      value: 
+      objectReference: {fileID: 295701415}
+    - target: {fileID: 2046044813607820883, guid: 7e279b1d04767f545b4e831726dc03a4, type: 3}
+      propertyPath: angularSpeed
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046044813607820883, guid: 7e279b1d04767f545b4e831726dc03a4, type: 3}
+      propertyPath: selfRotationSpeed
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 9095858473986453459, guid: 7e279b1d04767f545b4e831726dc03a4, type: 3}
+      propertyPath: m_Name
+      value: PlanetB (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7e279b1d04767f545b4e831726dc03a4, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,6 +310,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!4 &948901806 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 370808457410273555, guid: 7e279b1d04767f545b4e831726dc03a4, type: 3}
+  m_PrefabInstance: {fileID: 456878899}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -415,6 +489,14 @@ PrefabInstance:
       propertyPath: pivot
       value: 
       objectReference: {fileID: 295701415}
+    - target: {fileID: 2046044813607820883, guid: 7e279b1d04767f545b4e831726dc03a4, type: 3}
+      propertyPath: angularSpeed
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046044813607820883, guid: 7e279b1d04767f545b4e831726dc03a4, type: 3}
+      propertyPath: selfRotationSpeed
+      value: 600
+      objectReference: {fileID: 0}
     - target: {fileID: 9095858473986453459, guid: 7e279b1d04767f545b4e831726dc03a4, type: 3}
       propertyPath: m_Name
       value: PlanetB
@@ -557,6 +639,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 280049335446001649, guid: 00737a266cf9d724bae1e41a9a87084f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2124271830}
+    - targetCorrespondingSourceObject: {fileID: 280049335446001649, guid: 00737a266cf9d724bae1e41a9a87084f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 948901806}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8718252168206997809, guid: 00737a266cf9d724bae1e41a9a87084f, type: 3}
       insertIndex: -1
